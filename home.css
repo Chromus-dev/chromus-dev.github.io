@@ -1,6 +1,15 @@
+/* Background */
+body {
+	background-image: url(/backgrounds/sunset.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* Buttons */
 nav {
 	text-align: center;
-	background: white;
 	margin: 20px 0;
 	padding: 10px;
 }
@@ -9,6 +18,5 @@ nav a {
 	text-decoration: none;
 	background: #333;
 	border-radius: 5px;
-	color: white;
 	padding: 3px 8px;
 }
