@@ -1,6 +1,27 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
 	margin: 0px;
 	padding: 0px;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.context {
+	width: 100%;
+	position: absolute;
+	top: 25vh;
+}
+
+.context h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: lighter;
 }
 
 /* Buttons */
@@ -8,13 +29,7 @@ nav {
 	text-align: center;
 	margin: 20px 0;
 	padding: 10px;
-}
-
-nav a {
-	text-decoration: none;
-	background: #333;
-	border-radius: 5px;
-	padding: 3px 8px;
+	order: top;
 }
 
 /* Background */
