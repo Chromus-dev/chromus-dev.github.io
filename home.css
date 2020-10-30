@@ -10,8 +10,8 @@
 
 /* Menu Button */
 .menu-btn {
-	position: absolute;
-	right: 10px;
+	position: flex;
+	float: right;
 	padding: 10px;
 	display: flex;
 	justify-content: center;
@@ -55,6 +55,7 @@
 	transform: rotate(-45deg) translate(35px, 35px);
 }
 
+/* Title */
 .title {
 	font-family: 'Quicksand', sans-serif;
 }
@@ -66,7 +67,7 @@
 }
 
 .context h1 {
-	text-align: center;
+	text-align: center !important;
 	color: #fff;
 	font-size: 75px;
 	font-weight: 400;
