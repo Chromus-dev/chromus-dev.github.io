@@ -7,6 +7,33 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+/* Fade Animation */
+.fade-in {
+	animation: fadeIn ease 10s;
+	-webkit-animation: fadeIn ease 10s;
+	-moz-animation: fadeIn ease 10s;
+	-o-animation: fadeIn ease 10s;
+	-ms-animation: fadeIn ease 10s;
+	opacity: 1;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+}
+.fade-out {
+	animation: fadeOut ease 10s;
+	-webkit-animation: fadeOut ease 10s;
+	-moz-animation: fadeOut ease 10s;
+	-o-animation: fadeOut ease 10s;
+	-ms-animation: fadeOut ease 10s;
+	opacity: 0;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 1;
+	}
+}
 
 /* Menu Button */
 .menu-btn {
@@ -47,14 +74,13 @@
 }
 /* ANIMATION */
 .menu-btn.open .menu-btnBurger {
-	transform: translateX(-50px);
 	background: transparent;
 }
 .menu-btn.open .menu-btnBurger::before {
-	transform: rotate(45deg) translate(35px, -35px);
+	transform: rotate(45deg);
 }
 .menu-btn.open .menu-btnBurger::after {
-	transform: rotate(-45deg) translate(35px, 35px);
+	transform: rotate(-45deg);
 }
 
 /* Title */
