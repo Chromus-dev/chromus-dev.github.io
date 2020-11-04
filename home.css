@@ -97,10 +97,7 @@ nav span:nth-child(even) {
 	transition: ease-in-out 0.5s;
 	letter-spacing: -2rem;
 }
-nav:hover span:nth-child(1),
-nav:hover span:nth-child(2) {
-	letter-spacing: 0;
-}
+
 /* Coloring */
 a[href="https://github.com/Chromus-dev"] {
 	color: #fff;
