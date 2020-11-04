@@ -79,7 +79,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 }
 a {
@@ -92,10 +92,16 @@ nav span {
 	justify-content: center;
 	align-items: center;
 }
-nav span:nth-child(even) {
+nav span:nth-child(2) {
 	overflow: hidden;
 	transition: ease-in-out 0.5s;
 	letter-spacing: -2rem;
+}
+nav:hover span:nth-child(2) {
+	letter-spacing: 0;
+}
+i.fab:hover {
+	transform: scale(1.1);
 }
 
 /* Coloring */
