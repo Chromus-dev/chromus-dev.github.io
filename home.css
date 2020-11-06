@@ -136,6 +136,21 @@ img + span:hover {
 .ve-btn {
 	color: #2bc57d;
 }
+.youtube-btn {
+	color: #ff0000;
+}
+.spotify-btn {
+	color: #1db954;
+}
+.steam-btn {
+	color: #fff;
+}
+.reddit-btn {
+	color: #ff4300;
+}
+.xbox-btn {
+	color: #107b10;
+}
 
 /* Background */
 
