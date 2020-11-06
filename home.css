@@ -74,6 +74,29 @@ h1 {
 	font-weight: 400;
 }
 
+/* Footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.src-code a {
+	text-align: right !important;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: #fff !important;
+	text-align: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
 /* Buttons */
 nav {
 	margin: 0;
@@ -83,7 +106,7 @@ nav {
 	justify-content: space-evenly;
 	align-items: center;
 }
-a {
+nav a {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 35px;
 	text-decoration: none;
