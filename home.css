@@ -108,17 +108,33 @@ i.fab:hover + span {
 i.fab + span:hover {
 	letter-spacing: 0;
 }
+img + span {
+	overflow: hidden;
+	transition: ease-in-out 0.5s;
+	letter-spacing: -2rem;
+}
+
+img:hover + span {
+	letter-spacing: 0;
+}
+
+img + span:hover {
+	letter-spacing: 0;
+}
 
 /* Coloring */
 
-a[href="https://github.com/Chromus-dev"] {
+.github-btn {
 	color: #fff;
 }
-a[href="discord"] {
+.discord-btn {
 	color: #7289da;
 }
-a[href="https://twitch.tv/chromus"] {
+.twitch-btn {
 	color: #9146ff;
+}
+.ve-btn {
+	color: #2bc57d;
 }
 
 /* Background */
